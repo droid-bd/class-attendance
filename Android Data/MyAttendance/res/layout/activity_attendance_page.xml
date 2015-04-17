@@ -1,0 +1,1367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#4CB848" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Roll No.            Present"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt01"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll01"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt02"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll02"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt03"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll03"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt04"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll04"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt05"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll05"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt06"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll06"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt07"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll07"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt08"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll08"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt09"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll09"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt10"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll10"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt11"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll11"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt12"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll12"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt13"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll13"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt14"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll14"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt15"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll15"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt16"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll16"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt17"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll17"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt18"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll18"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt19"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll19"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt20"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll20"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt21"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll21"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt22"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll22"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt23"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll23"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt24"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll24"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt25"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll25"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt26"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll26"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt27"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll27"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt28"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll28"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt29"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll29"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt30"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll30"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt31"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll31"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt32"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll32"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt33"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll33"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt34"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll34"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt35"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll35"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt36"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll36"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt37"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll37"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt38"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll38"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt39"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll39"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt40"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll40"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt41"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll41"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt42"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll42"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt43"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll43"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt44"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll44"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt45"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll45"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt46"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll46"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt47"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll47"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt48"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll48"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt49"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll49"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt50"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll50"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt51"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll51"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt52"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll52"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt53"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll53"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt54"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll54"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt55"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll55"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt56"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll56"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt57"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll57"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt58"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll58"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt59"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll59"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <TextView
+                android:id="@+id/rolltxt60"
+                android:layout_weight="1"
+                android:text="Roll"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll60"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <EditText
+                android:id="@+id/rolltxt61"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:hint="Extra 1"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll61"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <EditText
+                android:id="@+id/rolltxt62"
+                android:layout_weight="1"
+                android:hint="Extra 2"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll62"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <EditText
+                android:id="@+id/rolltxt63"
+                android:layout_weight="1"
+                android:hint="Extra 3"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll63"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <EditText
+                android:id="@+id/rolltxt64"
+                android:layout_weight="1"
+                android:hint="Extra 4"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll64"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape" >
+
+            <EditText
+                android:id="@+id/rolltxt65"
+                android:layout_weight="1"
+                android:hint="Extra 5"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/roll65"
+                android:layout_weight="1"
+                android:scaleX="1.50"
+                android:scaleY="1.50"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <Button
+            android:id="@+id/saveInPhone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Save in Phone"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/saveInServer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Save in Server"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+        
+    </LinearLayout>
+
+</ScrollView>

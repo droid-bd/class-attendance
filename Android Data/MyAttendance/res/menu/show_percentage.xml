@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/excelMenu"
+		android:title="Save Data to Excel File" />
+    <item android:id="@+id/printMenu"
+		android:title="Print Details Attendance" />
+    <item android:id="@+id/sendMailOption"
+		android:title="Send Mail" />
+    <item android:id="@+id/sendMessageOption"
+		android:title="Send Message" />
+    
+</menu>

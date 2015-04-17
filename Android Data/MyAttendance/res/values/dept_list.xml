@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_of_dept">
+      <item >EEE</item>
+      <item >CSE</item>
+      <item >ECE</item>
+      <item >ME</item>
+      <item >LE</item>
+      <item >IPE</item>
+      <item >TE</item>
+      <item >CE</item>
+      <item >URP</item>
+      <item >BECM</item>
+      <item >BME</item>
+      </string-array>
+</resources>

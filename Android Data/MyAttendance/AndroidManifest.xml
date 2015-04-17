@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.golap.myattendance"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logokuetpng"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.myattendance.teacherlogin.TeacherLgin"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.myattendance.takeattendance.AttendancePage"></activity>
+        <activity android:name="com.myattendance.takeattendance.AttendanceInfo"></activity>
+        <activity android:name="com.myattendance.AppStarter"></activity>
+        <activity android:name="com.myattendance.TakeStartDecision"></activity>
+        <activity android:name="com.myattendance.checkattendance.CheckAttendance"></activity>
+        <activity android:name="com.myattendance.checkattendance.ShowPercentage"></activity>
+        <activity android:name="com.myattendance.checkattendance.DetailsPage"></activity>
+        <activity android:name="com.myattendance.PrintAttendance"></activity>
+        <activity android:name="com.myattendance.sendmail.SendMail"></activity>   
+        <activity android:name="com.myattendance.sendmessage.SendMessage"></activity>       
+    </application>
+
+</manifest>
